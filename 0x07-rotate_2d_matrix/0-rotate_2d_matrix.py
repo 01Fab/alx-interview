@@ -1,14 +1,10 @@
 #!/usr/bin/python3
-"""Rotates a 2D matrix"""
+'''2D matrix'''
 
 
 def rotate_2d_matrix(matrix):
-    """
-       Rotates 2D matrix 90 degrees clockwise
-       Matrix is edited in-place
-       args:
-          matrix
-    """
+    '''rotates a 2d matrix 90° clockwise
+    Returns: Nothing'''
     left, right = 0, len(matrix) - 1
 
     while left < right:
